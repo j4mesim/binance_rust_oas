@@ -1,5 +1,5 @@
 [package]
-name = "openapi"
+name = "binance_rust_oas"
 version = "1.0"
 authors = ["OpenAPI Generator team and contributors"]
 description = "OpenAPI Specifications for the Binance Public Spot API  API documents:   - [https://github.com/binance/binance-spot-api-docs](https://github.com/binance/binance-spot-api-docs)   - [https://binance-docs.github.io/apidocs/spot/en](https://binance-docs.github.io/apidocs/spot/en)"
@@ -16,3 +16,7 @@ uuid = { version = "^1.0", features = ["serde"] }
 [dependencies.reqwest]
 version = "^0.11"
 features = ["json", "multipart"]
+
+[lib]
+crate-type = ["lib"]
+bench = false
