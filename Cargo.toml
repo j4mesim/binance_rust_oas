@@ -1,5 +1,5 @@
 [package]
-name = "binance_rust_oas"
+name = "binance-rust-oas"
 version = "1.0.0"
 authors = ["OpenAPI Generator team and contributors"]
 description = "OpenAPI Specifications for the Binance Public Spot API  API documents:   - [https://github.com/binance/binance-spot-api-docs](https://github.com/binance/binance-spot-api-docs)   - [https://binance-docs.github.io/apidocs/spot/en](https://binance-docs.github.io/apidocs/spot/en)"
