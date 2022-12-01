@@ -36,11 +36,11 @@ pub struct AggTrade {
     pub m: bool,
     /// Was the trade the best price match?
     #[serde(rename = "M")]
-    pub m: bool,
+    pub M: bool,
 }
 
 impl AggTrade {
-    pub fn new(a: i64, p: String, q: String, f: i64, l: i64, t: bool, m: bool, m: bool) -> AggTrade {
+    pub fn new(a: i64, p: String, q: String, f: i64, l: i64, t: bool, m: bool, M: bool) -> AggTrade {
         AggTrade {
             a,
             p,
@@ -49,7 +49,7 @@ impl AggTrade {
             l,
             t,
             m,
-            m,
+            M,
         }
     }
 }
